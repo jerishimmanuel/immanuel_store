@@ -63,7 +63,7 @@ function getDefaultProducts() {
 }
 
 async function connectDb() {
-  const uri = process.env.MONGODB_URI || DEFAULT_MONGODB_URI;
+  const uri = process.env.MONGODB_URL || process.env.MONGODB_URI || DEFAULT_MONGODB_URI;
   await mongoose.connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true
