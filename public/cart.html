@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart - Immanuel Store</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="brand">Immanuel Store</div>
+      <nav>
+        <a href="/">Products</a>
+        <a href="/cart">Cart</a>
+        <a href="/login">Login</a>
+        <a href="/register">Register</a>
+        <a href="/settings">Settings</a>
+        <button id="theme-toggle" class="ghost-btn" type="button">🌙</button>
+      </nav>
+    </header>
+
+    <main>
+      <div class="panel form-card">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <div class="cart-summary">
+          <strong>Total: ₹<span id="cart-total">0</span></strong>
+          <button id="checkout-btn" type="button">Place Order</button>
+        </div>
+        <label for="delivery-address">Delivery Address</label>
+        <textarea id="delivery-address" rows="3" placeholder="Enter your full delivery address"></textarea>
+        <p id="delivery-note" class="small"></p>
+        <p id="auth-status" class="small"></p>
+        <div class="inline-actions">
+          <a href="/" class="link-btn">Continue Shopping</a>
+          <button id="logout-btn" type="button">Logout</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

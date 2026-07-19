@@ -1,0 +1,25 @@
+{
+  "name": "codealpha-ecommerce",
+  "version": "1.0.0",
+  "description": "Simple e-commerce store with Express and JSON database",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "express",
+    "ecommerce"
+  ],
+  "author": "OpenAI",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^4.19.2",
+    "express-session": "^1.19.0",
+    "mongoose": "^7.7.0"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^8.12.0"
+  }
+}

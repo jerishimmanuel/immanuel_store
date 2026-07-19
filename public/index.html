@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Immanuel Store</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="brand">Immanuel Store</div>
+      <nav>
+        <a href="/">Products</a>
+        <a href="/cart">Cart</a>
+        <a href="/login">Login</a>
+        <a href="/register">Register</a>
+        <a href="/settings">Settings</a>
+        <button id="theme-toggle" class="ghost-btn" type="button">🌙</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Discover great tech deals</h1>
+        <p>Shop daily essentials and fashion with a secure account, a dedicated cart, and dark mode.</p>
+      </section>
+
+      <section id="products" class="section">
+        <div class="section-title">
+          <h2>Featured Products</h2>
+          <p>Sign in to unlock cart actions.</p>
+        </div>
+        <div class="toolbar">
+          <input id="search-box" placeholder="Search products, brands, categories" />
+          <select id="category-filter">
+            <option value="">All Categories</option>
+            <option value="fashion">Fashion</option>
+            <option value="grocery">Grocery</option>
+            <option value="household">Household</option>
+            <option value="electronics">Electronics</option>
+            <option value="beauty">Beauty</option>
+          </select>
+        </div>
+        <div id="product-list" class="product-grid"></div>
+      </section>
+
+      <section class="section">
+        <h2>Popular Categories</h2>
+        <div class="inline-actions">
+          <button class="category-chip" data-category="fashion">Fashion</button>
+          <button class="category-chip" data-category="grocery">Snacks</button>
+          <button class="category-chip" data-category="household">Household</button>
+          <button class="category-chip" data-category="electronics">Electronics</button>
+          <button class="category-chip" data-category="beauty">Beauty</button>
+        </div>
+      </section>
+
+      <section id="product-detail" class="section detail-card"></section>
+
+      <section class="section card">
+        <h2>Account Status</h2>
+        <p id="auth-status">Please login to start shopping.</p>
+        <div class="inline-actions">
+          <a href="/login" class="link-btn">Login</a>
+          <a href="/register" class="link-btn">Register</a>
+          <a href="/cart" class="link-btn">View Cart</a>
+          <a href="/api/debug" class="link-btn">View DB</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

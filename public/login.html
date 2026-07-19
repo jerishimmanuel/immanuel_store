@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Immanuel Store</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="brand">Immanuel Store</div>
+      <nav>
+        <a href="/">Products</a>
+        <a href="/cart">Cart</a>
+        <a href="/login">Login</a>
+        <a href="/register">Register</a>
+        <a href="/settings">Settings</a>
+        <button id="theme-toggle" class="ghost-btn" type="button">🌙</button>
+      </nav>
+    </header>
+
+    <main>
+      <div class="panel form-card">
+        <h2>Login</h2>
+        <form id="login-form">
+          <input name="email" type="email" placeholder="Email" required />
+          <input name="password" type="password" placeholder="Password" required />
+          <button type="submit">Login</button>
+        </form>
+        <p class="small">No account yet? <a href="/register">Register here</a>.</p>
+      </div>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

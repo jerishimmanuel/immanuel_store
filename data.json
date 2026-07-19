@@ -1,0 +1,173 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ava",
+      "email": "ava@example.com",
+      "password": "secret123"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Dress",
+      "price": 1299,
+      "category": "fashion",
+      "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=80",
+      "description": "Stylish cotton dress for everyday comfort."
+    },
+    {
+      "id": 2,
+      "name": "Snacks",
+      "price": 199,
+      "category": "grocery",
+      "image": "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=800&q=80",
+      "description": "Mix of crunchy snacks and savory bites."
+    },
+    {
+      "id": 3,
+      "name": "Detergent",
+      "price": 349,
+      "category": "household",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
+      "description": "Powerful detergent for bright and fresh laundry."
+    },
+    {
+      "id": 4,
+      "name": "Water Bottle",
+      "price": 499,
+      "category": "essentials",
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=800&q=80",
+      "description": "Durable bottle for daily hydration."
+    },
+    {
+      "id": 5,
+      "name": "Face Cream",
+      "price": 599,
+      "category": "beauty",
+      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80",
+      "description": "Moisturizing cream for soft and healthy skin."
+    },
+    {
+      "id": 6,
+      "name": "Mobile Charger",
+      "price": 799,
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=800&q=80",
+      "description": "Fast charging cable for your everyday devices."
+    },
+    {
+      "id": 7,
+      "name": "Jeans",
+      "price": 1599,
+      "category": "fashion",
+      "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80",
+      "description": "Classic denim jeans for daily wear."
+    },
+    {
+      "id": 8,
+      "name": "Biscuits",
+      "price": 149,
+      "category": "grocery",
+      "image": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?auto=format&fit=crop&w=800&q=80",
+      "description": "Assorted buttery biscuits for tea-time."
+    },
+    {
+      "id": 9,
+      "name": "Soap",
+      "price": 89,
+      "category": "household",
+      "image": "https://images.unsplash.com/photo-1625772452859-1c03d5bf1137?auto=format&fit=crop&w=800&q=80",
+      "description": "Gentle soap for daily hygiene."
+    },
+    {
+      "id": 10,
+      "name": "Notebook",
+      "price": 249,
+      "category": "essentials",
+      "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80",
+      "description": "Neat notebook for study and planning."
+    },
+    {
+      "id": 11,
+      "name": "Perfume",
+      "price": 999,
+      "category": "beauty",
+      "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=80",
+      "description": "Long-lasting fragrance for everyday use."
+    },
+    {
+      "id": 12,
+      "name": "Socks",
+      "price": 199,
+      "category": "fashion",
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
+      "description": "Comfortable cotton socks in a pack."
+    },
+    {
+      "id": 13,
+      "name": "Smartphone",
+      "price": 18999,
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
+      "description": "Feature-rich smartphone with excellent battery life."
+    },
+    {
+      "id": 14,
+      "name": "Laptop",
+      "price": 45999,
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+      "description": "Slim laptop for work, study, and entertainment."
+    },
+    {
+      "id": 15,
+      "name": "Headphones",
+      "price": 2499,
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+      "description": "High-quality headphones with rich bass."
+    },
+    {
+      "id": 16,
+      "name": "Smart TV",
+      "price": 32999,
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+      "description": "Crisp display with smart streaming features."
+    },
+    {
+      "id": 17,
+      "name": "Gaming Mouse",
+      "price": 1299,
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80",
+      "description": "Precision gaming mouse with RGB lighting."
+    },
+    {
+      "id": 18,
+      "name": "Keyboard",
+      "price": 1799,
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+      "description": "Comfortable keyboard for work and play."
+    },
+    {
+      "id": 19,
+      "name": "Camera",
+      "price": 25999,
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80",
+      "description": "Compact camera for memorable moments."
+    },
+    {
+      "id": 20,
+      "name": "Air Freshener",
+      "price": 249,
+      "category": "household",
+      "image": "https://images.unsplash.com/photo-1608571424352-9261a1e1e6f0?auto=format&fit=crop&w=800&q=80",
+      "description": "Fresh fragrance for a clean home atmosphere."
+    }
+  ],
+  "orders": []
+}
